@@ -1,3 +1,9 @@
+bind9 (1:9.10.3.dfsg.P4-12.3+deb9u5+deb9hetz4) stretch-hetz; urgency=high
+
+  * Released 1:9.10.3.dfsg.P4-12.3+deb9u5+deb9hetz4~exp1 as 1:9.10.3.dfsg.P4-12.3+deb9u5+deb9hetz4
+
+ -- Shaun Bugler - Hetzner <sb@hetzner.co.za>  Tue, 21 Apr 2020 18:55:41 +0200
+
 bind9 (1:9.10.3.dfsg.P4-12.3+deb9u5+deb9hetz4~exp1) stretch-hetz-experimental; urgency=high
 
   * Importing Stretch 
