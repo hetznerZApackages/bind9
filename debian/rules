@@ -93,6 +93,7 @@ stamps/configure-udeb: stamps/prepare
 		--disable-linux-caps \
 		--without-openssl \
 		--without-libxml2 \
+		--with-dlz-postgres=yes \
 		--enable-ipv6 \
 		--enable-shared \
 		--with-libtool \

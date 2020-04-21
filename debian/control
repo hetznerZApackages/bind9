@@ -17,7 +17,8 @@ Build-Depends: debhelper (>= 9),
   python3,
   dh-systemd,
   autotools-dev,
-  dh-autoreconf
+  dh-autoreconf,
+  libpq-dev
 Build-Conflicts: libdb4.2-dev
 Standards-Version: 3.9.7
 XS-Vcs-Browser: https://anonscm.debian.org/git/pkg-bind/pkg-bind.git
