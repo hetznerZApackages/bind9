@@ -67,6 +67,7 @@ stamps/configure: stamps/prepare
 		--with-gnu-ld \
 		--with-geoip=/usr \
 		--with-atf=no \
+		--with-dlz-postgres=yes \
 		--enable-ipv6 \
 		--enable-rrl \
 		--enable-filter-aaaa \
