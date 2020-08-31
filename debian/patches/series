@@ -35,3 +35,6 @@ CVE-2018-5743.patch
 CVE-2018-5743-atomic-fix.patch
 CVE-2020-8616.patch
 CVE-2020-8617.patch
+
+CVE-2020-8622.patch
+CVE-2020-8623.patch
