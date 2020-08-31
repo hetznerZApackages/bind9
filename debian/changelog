@@ -1,3 +1,22 @@
+bind9 (1:9.10.3.dfsg.P4-12.3+deb9u7+deb9hetz1~exp1) stretch-hetz-experimental; urgency=medium
+
+  * Import upstream release 
+
+ -- Shaun Bugler - Hetzner <sb@hetzner.co.za>  Mon, 31 Aug 2020 16:34:56 +0200
+
+bind9 (1:9.10.3.dfsg.P4-12.3+deb9u7) stretch-security; urgency=medium
+
+  * Non-maintainer upload by the LTS Team. 
+  * CVE-2020-8622
+    Crafted responses to TSIG-signed requests could lead to an assertion
+    failure, causing the server to exit. This could be done by malicious
+    server operators or guessing attackers.
+  * CVE-2020-8623
+    An assertions failure, causing the server to exit, can be exploited by
+    a query for an RSA signed zone.
+ 
+ -- Thorsten Alteholz <debian@alteholz.de>  Wed, 26 Aug 2020 20:03:02 +0200
+
 bind9 (1:9.10.3.dfsg.P4-12.3+deb9u6+deb9hetz1) stretch-hetz; urgency=medium
 
   * Released 1:9.10.3.dfsg.P4-12.3+deb9u6+deb9hetz1~exp1 as 1:9.10.3.dfsg.P4-12.3+deb9u6+deb9hetz1
